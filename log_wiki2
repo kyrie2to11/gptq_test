@@ -1,0 +1,1275 @@
+---------------------------------------------test 0--------------------------------------------------------------------
+[32mpt-nwoga2km-worker-0 logs:[0m PATH = /mnt/afs/user/liyawei/.scc/bin:/usr/local/cuda/bin:/usr/local/gcc/bin:/usr/local/lib/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+[32mpt-nwoga2km-worker-0 logs:[0m LD_LIBRARY_PATH = /usr/local/cuda-11.3/lib64:/usr/local/cuda-11.3/extras/CUPTI/lib64:/usr/local/cuda/lib64:/usr/local/gcc/lib64:/usr/local/gcc/lib::/usr/local/lib
+[32mpt-nwoga2km-worker-0 logs:[0m dir = /mnt/afs/user/liyawei/project/gptq
+[32mpt-nwoga2km-worker-0 logs:[0m CUDA extension not installed.
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:12<00:25, 12.91s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:25<00:12, 12.72s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:34<00:00, 10.92s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:34<00:00, 11.43s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading builder script:   0%|          | 0.00/8.48k [00:00<?, ?B/s]
+Downloading builder script: 100%|██████████| 8.48k/8.48k [00:00<00:00, 30.7MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading metadata:   0%|          | 0.00/6.84k [00:00<?, ?B/s]
+Downloading metadata: 100%|██████████| 6.84k/6.84k [00:00<00:00, 28.7MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/9.62k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 9.62k/9.62k [00:00<00:00, 33.4MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/4.72M [00:00<?, ?B/s]
+Downloading data:   0%|          | 1.02k/4.72M [00:00<16:55, 4.65kB/s]
+Downloading data:   1%|          | 34.8k/4.72M [00:00<00:50, 92.0kB/s]
+Downloading data:   2%|▏         | 87.0k/4.72M [00:00<00:23, 198kB/s] 
+Downloading data:   2%|▏         | 112k/4.72M [00:00<00:23, 196kB/s] 
+Downloading data:   4%|▍         | 191k/4.72M [00:00<00:13, 333kB/s]
+Downloading data:   6%|▌         | 261k/4.72M [00:00<00:11, 399kB/s]
+Downloading data:   8%|▊         | 366k/4.72M [00:01<00:08, 532kB/s]
+Downloading data:  11%|█         | 504k/4.72M [00:01<00:05, 706kB/s]
+Downloading data:  14%|█▎        | 644k/4.72M [00:01<00:04, 832kB/s]
+Downloading data:  15%|█▌        | 731k/4.72M [00:01<00:07, 538kB/s]
+Downloading data:  19%|█▉        | 888k/4.72M [00:01<00:05, 698kB/s]
+Downloading data:  22%|██▏       | 1.04M/4.72M [00:01<00:04, 834kB/s]
+Downloading data:  25%|██▌       | 1.18M/4.72M [00:02<00:03, 913kB/s]
+Downloading data:  29%|██▊       | 1.35M/4.72M [00:02<00:03, 1.08MB/s]
+Downloading data:  31%|███▏      | 1.48M/4.72M [00:02<00:02, 1.09MB/s]
+Downloading data:  35%|███▌      | 1.67M/4.72M [00:02<00:02, 1.22MB/s]
+Downloading data:  39%|███▉      | 1.86M/4.72M [00:02<00:02, 1.31MB/s]
+Downloading data:  44%|████▎     | 2.05M/4.72M [00:02<00:01, 1.39MB/s]
+Downloading data:  48%|████▊     | 2.28M/4.72M [00:02<00:01, 1.50MB/s]
+Downloading data:  53%|█████▎    | 2.50M/4.72M [00:02<00:01, 1.60MB/s]
+Downloading data:  58%|█████▊    | 2.75M/4.72M [00:02<00:01, 1.71MB/s]
+Downloading data:  62%|██████▏   | 2.93M/4.72M [00:03<00:01, 1.63MB/s]
+Downloading data:  66%|██████▌   | 3.11M/4.72M [00:03<00:01, 1.57MB/s]
+Downloading data:  70%|██████▉   | 3.29M/4.72M [00:03<00:00, 1.55MB/s]
+Downloading data:  74%|███████▍  | 3.50M/4.72M [00:03<00:00, 1.59MB/s]
+Downloading data:  78%|███████▊  | 3.70M/4.72M [00:03<00:00, 1.59MB/s]
+Downloading data:  83%|████████▎ | 3.92M/4.72M [00:03<00:00, 1.76MB/s]
+Downloading data:  87%|████████▋ | 4.11M/4.72M [00:03<00:00, 1.70MB/s]
+Downloading data:  92%|█████████▏| 4.34M/4.72M [00:03<00:00, 1.75MB/s]
+Downloading data:  97%|█████████▋| 4.59M/4.72M [00:04<00:00, 1.93MB/s]
+Downloading data: 100%|██████████| 4.72M/4.72M [00:04<00:00, 1.15MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 40759.99 examples/s]
+Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 40474.87 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating train split:   0%|          | 0/36718 [00:00<?, ? examples/s]
+Generating train split:  23%|██▎       | 8608/36718 [00:00<00:00, 85928.27 examples/s]
+Generating train split:  58%|█████▊    | 21324/36718 [00:00<00:00, 84865.46 examples/s]
+Generating train split:  82%|████████▏ | 30000/36718 [00:00<00:00, 85277.67 examples/s]
+Generating train split: 100%|██████████| 36718/36718 [00:00<00:00, 85306.30 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m Starting ...
+[32mpt-nwoga2km-worker-0 logs:[0m Ready.
+[32mpt-nwoga2km-worker-0 logs:[0m 0 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 230.11309814453125
+[32mpt-nwoga2km-worker-0 logs:[0m 0 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 18.18291664123535
+[32mpt-nwoga2km-worker-0 logs:[0m 0 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 259.54705810546875
+[32mpt-nwoga2km-worker-0 logs:[0m 0 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 0.257043719291687
+[32mpt-nwoga2km-worker-0 logs:[0m 0 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 267.2530212402344
+[32mpt-nwoga2km-worker-0 logs:[0m 0 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 290.6318359375
+[32mpt-nwoga2km-worker-0 logs:[0m 0 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 2.594231128692627
+[32mpt-nwoga2km-worker-0 logs:[0m 1 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 1550.2015380859375
+[32mpt-nwoga2km-worker-0 logs:[0m 1 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 126.18678283691406
+[32mpt-nwoga2km-worker-0 logs:[0m 1 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 1518.219482421875
+[32mpt-nwoga2km-worker-0 logs:[0m 1 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 8.123573303222656
+[32mpt-nwoga2km-worker-0 logs:[0m 1 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 1065.1956787109375
+[32mpt-nwoga2km-worker-0 logs:[0m 1 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 1253.89990234375
+[32mpt-nwoga2km-worker-0 logs:[0m 1 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 947.5733642578125
+[32mpt-nwoga2km-worker-0 logs:[0m 2 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 5960.5380859375
+[32mpt-nwoga2km-worker-0 logs:[0m 2 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 1144.2803955078125
+[32mpt-nwoga2km-worker-0 logs:[0m 2 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 6617.9150390625
+[32mpt-nwoga2km-worker-0 logs:[0m 2 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 18.7219295501709
+[32mpt-nwoga2km-worker-0 logs:[0m 2 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 2836.388671875
+[32mpt-nwoga2km-worker-0 logs:[0m 2 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 3318.6240234375
+[32mpt-nwoga2km-worker-0 logs:[0m 2 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 70.37435913085938
+[32mpt-nwoga2km-worker-0 logs:[0m 3 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 16588.3671875
+[32mpt-nwoga2km-worker-0 logs:[0m 3 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 3735.940185546875
+[32mpt-nwoga2km-worker-0 logs:[0m 3 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 22108.005859375
+[32mpt-nwoga2km-worker-0 logs:[0m 3 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 33.21247100830078
+[32mpt-nwoga2km-worker-0 logs:[0m 3 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 5320.587890625
+[32mpt-nwoga2km-worker-0 logs:[0m 3 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.91
+[32mpt-nwoga2km-worker-0 logs:[0m error 6368.439453125
+[32mpt-nwoga2km-worker-0 logs:[0m 3 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 146.24893188476562
+[32mpt-nwoga2km-worker-0 logs:[0m 4 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 16584.443359375
+[32mpt-nwoga2km-worker-0 logs:[0m 4 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 3785.128173828125
+[32mpt-nwoga2km-worker-0 logs:[0m 4 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 21193.3984375
+[32mpt-nwoga2km-worker-0 logs:[0m 4 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.09
+[32mpt-nwoga2km-worker-0 logs:[0m error 61.16548156738281
+[32mpt-nwoga2km-worker-0 logs:[0m 4 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 7311.29052734375
+[32mpt-nwoga2km-worker-0 logs:[0m 4 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 9201.78125
+[32mpt-nwoga2km-worker-0 logs:[0m 4 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 286.8445739746094
+[32mpt-nwoga2km-worker-0 logs:[0m 5 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 19508.91015625
+[32mpt-nwoga2km-worker-0 logs:[0m 5 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 4660.177734375
+[32mpt-nwoga2km-worker-0 logs:[0m 5 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 20142.29296875
+[32mpt-nwoga2km-worker-0 logs:[0m 5 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 128.95603942871094
+[32mpt-nwoga2km-worker-0 logs:[0m 5 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 9226.2763671875
+[32mpt-nwoga2km-worker-0 logs:[0m 5 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 11657.916015625
+[32mpt-nwoga2km-worker-0 logs:[0m 5 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.37
+[32mpt-nwoga2km-worker-0 logs:[0m error 425.68011474609375
+[32mpt-nwoga2km-worker-0 logs:[0m 6 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 25672.515625
+[32mpt-nwoga2km-worker-0 logs:[0m 6 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 6813.72802734375
+[32mpt-nwoga2km-worker-0 logs:[0m 6 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 29840.1015625
+[32mpt-nwoga2km-worker-0 logs:[0m 6 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 166.8105010986328
+[32mpt-nwoga2km-worker-0 logs:[0m 6 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 11220.9267578125
+[32mpt-nwoga2km-worker-0 logs:[0m 6 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 14738.9013671875
+[32mpt-nwoga2km-worker-0 logs:[0m 6 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 623.0567016601562
+[32mpt-nwoga2km-worker-0 logs:[0m 7 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 26976.966796875
+[32mpt-nwoga2km-worker-0 logs:[0m 7 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 7771.0947265625
+[32mpt-nwoga2km-worker-0 logs:[0m 7 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 29878.52734375
+[32mpt-nwoga2km-worker-0 logs:[0m 7 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 240.6253662109375
+[32mpt-nwoga2km-worker-0 logs:[0m 7 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 13083.1015625
+[32mpt-nwoga2km-worker-0 logs:[0m 7 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 17058.603515625
+[32mpt-nwoga2km-worker-0 logs:[0m 7 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.31
+[32mpt-nwoga2km-worker-0 logs:[0m error 841.958251953125
+[32mpt-nwoga2km-worker-0 logs:[0m 8 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 27425.3359375
+[32mpt-nwoga2km-worker-0 logs:[0m 8 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 7927.76904296875
+[32mpt-nwoga2km-worker-0 logs:[0m 8 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 28770.740234375
+[32mpt-nwoga2km-worker-0 logs:[0m 8 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 363.8245849609375
+[32mpt-nwoga2km-worker-0 logs:[0m 8 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 14602.7333984375
+[32mpt-nwoga2km-worker-0 logs:[0m 8 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 17963.908203125
+[32mpt-nwoga2km-worker-0 logs:[0m 8 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 1059.6064453125
+[32mpt-nwoga2km-worker-0 logs:[0m 9 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 31078.2734375
+[32mpt-nwoga2km-worker-0 logs:[0m 9 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 9022.017578125
+[32mpt-nwoga2km-worker-0 logs:[0m 9 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 30428.064453125
+[32mpt-nwoga2km-worker-0 logs:[0m 9 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 540.8970947265625
+[32mpt-nwoga2km-worker-0 logs:[0m 9 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 16117.435546875
+[32mpt-nwoga2km-worker-0 logs:[0m 9 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 19152.828125
+[32mpt-nwoga2km-worker-0 logs:[0m 9 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 1256.6180419921875
+[32mpt-nwoga2km-worker-0 logs:[0m 10 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 32676.421875
+[32mpt-nwoga2km-worker-0 logs:[0m 10 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 9587.5439453125
+[32mpt-nwoga2km-worker-0 logs:[0m 10 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 30385.3515625
+[32mpt-nwoga2km-worker-0 logs:[0m 10 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 692.5658569335938
+[32mpt-nwoga2km-worker-0 logs:[0m 10 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 17370.931640625
+[32mpt-nwoga2km-worker-0 logs:[0m 10 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 20255.9140625
+[32mpt-nwoga2km-worker-0 logs:[0m 10 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.27
+[32mpt-nwoga2km-worker-0 logs:[0m error 1463.137939453125
+[32mpt-nwoga2km-worker-0 logs:[0m 11 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 34461.66015625
+[32mpt-nwoga2km-worker-0 logs:[0m 11 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 13182.1494140625
+[32mpt-nwoga2km-worker-0 logs:[0m 11 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 35360.51171875
+[32mpt-nwoga2km-worker-0 logs:[0m 11 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 755.187744140625
+[32mpt-nwoga2km-worker-0 logs:[0m 11 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.25
+[32mpt-nwoga2km-worker-0 logs:[0m error 19391.1640625
+[32mpt-nwoga2km-worker-0 logs:[0m 11 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 21953.53515625
+[32mpt-nwoga2km-worker-0 logs:[0m 11 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.27
+[32mpt-nwoga2km-worker-0 logs:[0m error 1613.9725341796875
+[32mpt-nwoga2km-worker-0 logs:[0m 12 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 38872.04296875
+[32mpt-nwoga2km-worker-0 logs:[0m 12 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 13090.68359375
+[32mpt-nwoga2km-worker-0 logs:[0m 12 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 36971.78125
+[32mpt-nwoga2km-worker-0 logs:[0m 12 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 873.5728759765625
+[32mpt-nwoga2km-worker-0 logs:[0m 12 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 20780.267578125
+[32mpt-nwoga2km-worker-0 logs:[0m 12 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.91
+[32mpt-nwoga2km-worker-0 logs:[0m error 22977.64453125
+[32mpt-nwoga2km-worker-0 logs:[0m 12 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 1874.75390625
+[32mpt-nwoga2km-worker-0 logs:[0m 13 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 38525.1328125
+[32mpt-nwoga2km-worker-0 logs:[0m 13 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 14205.53515625
+[32mpt-nwoga2km-worker-0 logs:[0m 13 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 39502.0234375
+[32mpt-nwoga2km-worker-0 logs:[0m 13 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 907.292724609375
+[32mpt-nwoga2km-worker-0 logs:[0m 13 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 22303.27734375
+[32mpt-nwoga2km-worker-0 logs:[0m 13 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 24004.70703125
+[32mpt-nwoga2km-worker-0 logs:[0m 13 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 2333.3916015625
+[32mpt-nwoga2km-worker-0 logs:[0m 14 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 40517.234375
+[32mpt-nwoga2km-worker-0 logs:[0m 14 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 14080.94921875
+[32mpt-nwoga2km-worker-0 logs:[0m 14 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 37912.8515625
+[32mpt-nwoga2km-worker-0 logs:[0m 14 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 1086.3812255859375
+[32mpt-nwoga2km-worker-0 logs:[0m 14 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 24344.23046875
+[32mpt-nwoga2km-worker-0 logs:[0m 14 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 26063.525390625
+[32mpt-nwoga2km-worker-0 logs:[0m 14 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 2674.70263671875
+[32mpt-nwoga2km-worker-0 logs:[0m 15 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 38712.53125
+[32mpt-nwoga2km-worker-0 logs:[0m 15 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 14616.8994140625
+[32mpt-nwoga2km-worker-0 logs:[0m 15 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 41530.234375
+[32mpt-nwoga2km-worker-0 logs:[0m 15 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.12
+[32mpt-nwoga2km-worker-0 logs:[0m error 1243.4000244140625
+[32mpt-nwoga2km-worker-0 logs:[0m 15 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 26807.740234375
+[32mpt-nwoga2km-worker-0 logs:[0m 15 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 28368.990234375
+[32mpt-nwoga2km-worker-0 logs:[0m 15 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 3455.86181640625
+[32mpt-nwoga2km-worker-0 logs:[0m 16 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 40950.72265625
+[32mpt-nwoga2km-worker-0 logs:[0m 16 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 16547.85546875
+[32mpt-nwoga2km-worker-0 logs:[0m 16 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 45743.79296875
+[32mpt-nwoga2km-worker-0 logs:[0m 16 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 1539.0439453125
+[32mpt-nwoga2km-worker-0 logs:[0m 16 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 29195.65234375
+[32mpt-nwoga2km-worker-0 logs:[0m 16 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 31415.96484375
+[32mpt-nwoga2km-worker-0 logs:[0m 16 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.30
+[32mpt-nwoga2km-worker-0 logs:[0m error 4421.83203125
+[32mpt-nwoga2km-worker-0 logs:[0m 17 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 41057.1796875
+[32mpt-nwoga2km-worker-0 logs:[0m 17 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 17182.3359375
+[32mpt-nwoga2km-worker-0 logs:[0m 17 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 41686.1484375
+[32mpt-nwoga2km-worker-0 logs:[0m 17 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1162.6529541015625
+[32mpt-nwoga2km-worker-0 logs:[0m 17 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 32513.908203125
+[32mpt-nwoga2km-worker-0 logs:[0m 17 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 36004.8671875
+[32mpt-nwoga2km-worker-0 logs:[0m 17 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.31
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 84285.09 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m error 4858.0908203125
+[32mpt-nwoga2km-worker-0 logs:[0m 18 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 43656.56640625
+[32mpt-nwoga2km-worker-0 logs:[0m 18 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 20801.533203125
+[32mpt-nwoga2km-worker-0 logs:[0m 18 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 46486.8359375
+[32mpt-nwoga2km-worker-0 logs:[0m 18 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1311.62890625
+[32mpt-nwoga2km-worker-0 logs:[0m 18 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 36141.2734375
+[32mpt-nwoga2km-worker-0 logs:[0m 18 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 41035.9296875
+[32mpt-nwoga2km-worker-0 logs:[0m 18 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.31
+[32mpt-nwoga2km-worker-0 logs:[0m error 5946.1279296875
+[32mpt-nwoga2km-worker-0 logs:[0m 19 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 44249.5625
+[32mpt-nwoga2km-worker-0 logs:[0m 19 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 20791.2421875
+[32mpt-nwoga2km-worker-0 logs:[0m 19 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 47233.69921875
+[32mpt-nwoga2km-worker-0 logs:[0m 19 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1276.8350830078125
+[32mpt-nwoga2km-worker-0 logs:[0m 19 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 39128.5546875
+[32mpt-nwoga2km-worker-0 logs:[0m 19 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 44575.66796875
+[32mpt-nwoga2km-worker-0 logs:[0m 19 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.31
+[32mpt-nwoga2km-worker-0 logs:[0m error 6600.89453125
+[32mpt-nwoga2km-worker-0 logs:[0m 20 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.20
+[32mpt-nwoga2km-worker-0 logs:[0m error 46702.58203125
+[32mpt-nwoga2km-worker-0 logs:[0m 20 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.91
+[32mpt-nwoga2km-worker-0 logs:[0m error 21927.59375
+[32mpt-nwoga2km-worker-0 logs:[0m 20 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 49399.5390625
+[32mpt-nwoga2km-worker-0 logs:[0m 20 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1377.9027099609375
+[32mpt-nwoga2km-worker-0 logs:[0m 20 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 41019.234375
+[32mpt-nwoga2km-worker-0 logs:[0m 20 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 47119.203125
+[32mpt-nwoga2km-worker-0 logs:[0m 20 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.33
+[32mpt-nwoga2km-worker-0 logs:[0m error 7811.880859375
+[32mpt-nwoga2km-worker-0 logs:[0m 21 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 49997.8203125
+[32mpt-nwoga2km-worker-0 logs:[0m 21 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 25577.35546875
+[32mpt-nwoga2km-worker-0 logs:[0m 21 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 56136.859375
+[32mpt-nwoga2km-worker-0 logs:[0m 21 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 1252.38720703125
+[32mpt-nwoga2km-worker-0 logs:[0m 21 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 44306.265625
+[32mpt-nwoga2km-worker-0 logs:[0m 21 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 51710.453125
+[32mpt-nwoga2km-worker-0 logs:[0m 21 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 8342.62109375
+[32mpt-nwoga2km-worker-0 logs:[0m 22 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 53443.3203125
+[32mpt-nwoga2km-worker-0 logs:[0m 22 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 26781.671875
+[32mpt-nwoga2km-worker-0 logs:[0m 22 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 57771.28125
+[32mpt-nwoga2km-worker-0 logs:[0m 22 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 1868.505126953125
+[32mpt-nwoga2km-worker-0 logs:[0m 22 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 46945.6953125
+[32mpt-nwoga2km-worker-0 logs:[0m 22 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 55573.484375
+[32mpt-nwoga2km-worker-0 logs:[0m 22 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.28
+[32mpt-nwoga2km-worker-0 logs:[0m error 9237.71484375
+[32mpt-nwoga2km-worker-0 logs:[0m 23 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 58561.875
+[32mpt-nwoga2km-worker-0 logs:[0m 23 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 33052.25
+[32mpt-nwoga2km-worker-0 logs:[0m 23 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 65713.7734375
+[32mpt-nwoga2km-worker-0 logs:[0m 23 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1858.47119140625
+[32mpt-nwoga2km-worker-0 logs:[0m 23 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 51734.74609375
+[32mpt-nwoga2km-worker-0 logs:[0m 23 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 60284.1796875
+[32mpt-nwoga2km-worker-0 logs:[0m 23 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 10640.04296875
+[32mpt-nwoga2km-worker-0 logs:[0m 24 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 57949.59375
+[32mpt-nwoga2km-worker-0 logs:[0m 24 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 32397.81640625
+[32mpt-nwoga2km-worker-0 logs:[0m 24 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 60603.484375
+[32mpt-nwoga2km-worker-0 logs:[0m 24 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.13
+[32mpt-nwoga2km-worker-0 logs:[0m error 1790.1519775390625
+[32mpt-nwoga2km-worker-0 logs:[0m 24 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 55372.734375
+[32mpt-nwoga2km-worker-0 logs:[0m 24 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 64826.1015625
+[32mpt-nwoga2km-worker-0 logs:[0m 24 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.35
+[32mpt-nwoga2km-worker-0 logs:[0m error 11185.455078125
+[32mpt-nwoga2km-worker-0 logs:[0m 25 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 65496.1328125
+[32mpt-nwoga2km-worker-0 logs:[0m 25 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 40830.1171875
+[32mpt-nwoga2km-worker-0 logs:[0m 25 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 72400.3046875
+[32mpt-nwoga2km-worker-0 logs:[0m 25 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 1722.1917724609375
+[32mpt-nwoga2km-worker-0 logs:[0m 25 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 59901.8203125
+[32mpt-nwoga2km-worker-0 logs:[0m 25 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 70097.1953125
+[32mpt-nwoga2km-worker-0 logs:[0m 25 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.29
+[32mpt-nwoga2km-worker-0 logs:[0m error 12356.7265625
+[32mpt-nwoga2km-worker-0 logs:[0m 26 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 64563.28125
+[32mpt-nwoga2km-worker-0 logs:[0m 26 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 40682.58203125
+[32mpt-nwoga2km-worker-0 logs:[0m 26 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 73177.296875
+[32mpt-nwoga2km-worker-0 logs:[0m 26 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 3158.135009765625
+[32mpt-nwoga2km-worker-0 logs:[0m 26 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.17
+[32mpt-nwoga2km-worker-0 logs:[0m error 64484.109375
+[32mpt-nwoga2km-worker-0 logs:[0m 26 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 74784.3046875
+[32mpt-nwoga2km-worker-0 logs:[0m 26 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.28
+[32mpt-nwoga2km-worker-0 logs:[0m error 13578.94921875
+[32mpt-nwoga2km-worker-0 logs:[0m 27 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 67529.4453125
+[32mpt-nwoga2km-worker-0 logs:[0m 27 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 42634.25
+[32mpt-nwoga2km-worker-0 logs:[0m 27 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 84316.7265625
+[32mpt-nwoga2km-worker-0 logs:[0m 27 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 2793.466796875
+[32mpt-nwoga2km-worker-0 logs:[0m 27 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 70392.09375
+[32mpt-nwoga2km-worker-0 logs:[0m 27 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 80808.3125
+[32mpt-nwoga2km-worker-0 logs:[0m 27 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.34
+[32mpt-nwoga2km-worker-0 logs:[0m error 15978.962890625
+[32mpt-nwoga2km-worker-0 logs:[0m 28 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 69039.75
+[32mpt-nwoga2km-worker-0 logs:[0m 28 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 47520.8203125
+[32mpt-nwoga2km-worker-0 logs:[0m 28 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 91073.7109375
+[32mpt-nwoga2km-worker-0 logs:[0m 28 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.11
+[32mpt-nwoga2km-worker-0 logs:[0m error 3473.94921875
+[32mpt-nwoga2km-worker-0 logs:[0m 28 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 75079.96875
+[32mpt-nwoga2km-worker-0 logs:[0m 28 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 83795.34375
+[32mpt-nwoga2km-worker-0 logs:[0m 28 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.28
+[32mpt-nwoga2km-worker-0 logs:[0m error 18910.984375
+[32mpt-nwoga2km-worker-0 logs:[0m 29 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.22
+[32mpt-nwoga2km-worker-0 logs:[0m error 64439.77734375
+[32mpt-nwoga2km-worker-0 logs:[0m 29 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 44418.015625
+[32mpt-nwoga2km-worker-0 logs:[0m 29 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 95739.8203125
+[32mpt-nwoga2km-worker-0 logs:[0m 29 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 3155.752197265625
+[32mpt-nwoga2km-worker-0 logs:[0m 29 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.16
+[32mpt-nwoga2km-worker-0 logs:[0m error 78972.8984375
+[32mpt-nwoga2km-worker-0 logs:[0m 29 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 87143.3125
+[32mpt-nwoga2km-worker-0 logs:[0m 29 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.28
+[32mpt-nwoga2km-worker-0 logs:[0m error 23236.4921875
+[32mpt-nwoga2km-worker-0 logs:[0m 30 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 67140.421875
+[32mpt-nwoga2km-worker-0 logs:[0m 30 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 49770.1953125
+[32mpt-nwoga2km-worker-0 logs:[0m 30 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 107397.03125
+[32mpt-nwoga2km-worker-0 logs:[0m 30 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.13
+[32mpt-nwoga2km-worker-0 logs:[0m error 3715.91650390625
+[32mpt-nwoga2km-worker-0 logs:[0m 30 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.18
+[32mpt-nwoga2km-worker-0 logs:[0m error 80741.75
+[32mpt-nwoga2km-worker-0 logs:[0m 30 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.89
+[32mpt-nwoga2km-worker-0 logs:[0m error 91177.046875
+[32mpt-nwoga2km-worker-0 logs:[0m 30 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.28
+[32mpt-nwoga2km-worker-0 logs:[0m error 42474.25390625
+[32mpt-nwoga2km-worker-0 logs:[0m 31 self_attn.k_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 53632.36328125
+[32mpt-nwoga2km-worker-0 logs:[0m 31 self_attn.v_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.88
+[32mpt-nwoga2km-worker-0 logs:[0m error 30950.91796875
+[32mpt-nwoga2km-worker-0 logs:[0m 31 self_attn.q_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.87
+[32mpt-nwoga2km-worker-0 logs:[0m error 58596.75
+[32mpt-nwoga2km-worker-0 logs:[0m 31 self_attn.o_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.10
+[32mpt-nwoga2km-worker-0 logs:[0m error 4098.474609375
+[32mpt-nwoga2km-worker-0 logs:[0m 31 mlp.up_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 1.19
+[32mpt-nwoga2km-worker-0 logs:[0m error 71608.3125
+[32mpt-nwoga2km-worker-0 logs:[0m 31 mlp.gate_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 0.90
+[32mpt-nwoga2km-worker-0 logs:[0m error 80078.296875
+[32mpt-nwoga2km-worker-0 logs:[0m 31 mlp.down_proj
+[32mpt-nwoga2km-worker-0 logs:[0m Quantizing ...
+[32mpt-nwoga2km-worker-0 logs:[0m time 3.27
+[32mpt-nwoga2km-worker-0 logs:[0m error 81687.34375
+[32mpt-nwoga2km-worker-0 logs:[0m 652.5096571445465
+[32mpt-nwoga2km-worker-0 logs:[0m wikitext2
+[32mpt-nwoga2km-worker-0 logs:[0m Evaluating ...
+[32mpt-nwoga2km-worker-0 logs:[0m 0
+[32mpt-nwoga2km-worker-0 logs:[0m 1
+[32mpt-nwoga2km-worker-0 logs:[0m 2
+[32mpt-nwoga2km-worker-0 logs:[0m 3
+[32mpt-nwoga2km-worker-0 logs:[0m 4
+[32mpt-nwoga2km-worker-0 logs:[0m 5
+[32mpt-nwoga2km-worker-0 logs:[0m 6
+[32mpt-nwoga2km-worker-0 logs:[0m 7
+[32mpt-nwoga2km-worker-0 logs:[0m 8
+[32mpt-nwoga2km-worker-0 logs:[0m 9
+[32mpt-nwoga2km-worker-0 logs:[0m 10
+[32mpt-nwoga2km-worker-0 logs:[0m 11
+[32mpt-nwoga2km-worker-0 logs:[0m 12
+[32mpt-nwoga2km-worker-0 logs:[0m 13
+[32mpt-nwoga2km-worker-0 logs:[0m 14
+[32mpt-nwoga2km-worker-0 logs:[0m 15
+[32mpt-nwoga2km-worker-0 logs:[0m 16
+[32mpt-nwoga2km-worker-0 logs:[0m 17
+[32mpt-nwoga2km-worker-0 logs:[0m 18
+[32mpt-nwoga2km-worker-0 logs:[0m 19
+[32mpt-nwoga2km-worker-0 logs:[0m 20
+[32mpt-nwoga2km-worker-0 logs:[0m 21
+[32mpt-nwoga2km-worker-0 logs:[0m 22
+[32mpt-nwoga2km-worker-0 logs:[0m 23
+[32mpt-nwoga2km-worker-0 logs:[0m 24
+[32mpt-nwoga2km-worker-0 logs:[0m 25
+[32mpt-nwoga2km-worker-0 logs:[0m 26
+[32mpt-nwoga2km-worker-0 logs:[0m 27
+[32mpt-nwoga2km-worker-0 logs:[0m 28
+[32mpt-nwoga2km-worker-0 logs:[0m 29
+[32mpt-nwoga2km-worker-0 logs:[0m 30
+[32mpt-nwoga2km-worker-0 logs:[0m 31
+[32mpt-nwoga2km-worker-0 logs:[0m 5.739861011505127
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading builder script:   0%|          | 0.00/6.50k [00:00<?, ?B/s]
+Downloading builder script: 100%|██████████| 6.50k/6.50k [00:00<00:00, 32.8MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading metadata:   0%|          | 0.00/2.15k [00:00<?, ?B/s]
+Downloading metadata: 100%|██████████| 2.15k/2.15k [00:00<00:00, 16.1MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/4.21k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 4.21k/4.21k [00:00<00:00, 23.1MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/3 [00:00<?, ?it/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/1.70M [00:00<?, ?B/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   9%|▊         | 144k/1.70M [00:00<00:01, 931kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  20%|██        | 341k/1.70M [00:00<00:01, 1.27MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  35%|███▍      | 590k/1.70M [00:00<00:00, 1.58MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  52%|█████▏    | 885k/1.70M [00:00<00:00, 1.88MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  70%|██████▉   | 1.18M/1.70M [00:00<00:00, 2.06MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  93%|█████████▎| 1.57M/1.70M [00:00<00:00, 2.43MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 2.11MB [00:00, 3.03MB/s]                            [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 2.70MB [00:01, 3.58MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 3.39MB [00:01, 4.20MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 3.81MB [00:01, 3.62MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 4.75MB [00:01, 4.76MB/s][A
+Downloading data: 5.10MB [00:01, 3.47MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files:  33%|███▎      | 1/3 [00:02<00:05,  2.54s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/135k [00:00<?, ?B/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 142kB [00:00, 921kB/s]                    [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 339kB [00:00, 1.26MB/s][A
+Downloading data: 400kB [00:00, 1.42MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files:  67%|██████▋   | 2/3 [00:03<00:01,  1.84s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/150k [00:00<?, ?B/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  96%|█████████▌| 144k/150k [00:00<00:00, 1.16MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data: 293kB [00:00, 1.18MB/s]                           [A
+Downloading data: 450kB [00:00, 1.44MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 3/3 [00:05<00:00,  1.61s/it]
+Downloading data files: 100%|██████████| 3/3 [00:05<00:00,  1.74s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/3 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 3/3 [00:00<00:00, 3183.94it/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating train split:   0%|          | 0/42068 [00:00<?, ? examples/s]
+Generating train split:  22%|██▏       | 9070/42068 [00:00<00:00, 90500.50 examples/s]
+Generating train split:  44%|████▎     | 18324/42068 [00:00<00:00, 91696.09 examples/s]
+Generating train split:  66%|██████▋   | 27972/42068 [00:00<00:00, 73786.85 examples/s]
+Generating train split:  88%|████████▊ | 37092/42068 [00:00<00:00, 79685.34 examples/s]
+Generating train split: 100%|██████████| 42068/42068 [00:00<00:00, 81770.03 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating test split:   0%|          | 0/3761 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 3761/3761 [00:00<00:00, 90206.02 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating validation split:   0%|          | 0/3370 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3370/3370 [00:00<00:00, 90581.59 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m ptb-new
+[32mpt-nwoga2km-worker-0 logs:[0m Evaluating ...
+[32mpt-nwoga2km-worker-0 logs:[0m 0
+[32mpt-nwoga2km-worker-0 logs:[0m 1
+[32mpt-nwoga2km-worker-0 logs:[0m 2
+[32mpt-nwoga2km-worker-0 logs:[0m 3
+[32mpt-nwoga2km-worker-0 logs:[0m 4
+[32mpt-nwoga2km-worker-0 logs:[0m 5
+[32mpt-nwoga2km-worker-0 logs:[0m 6
+[32mpt-nwoga2km-worker-0 logs:[0m 7
+[32mpt-nwoga2km-worker-0 logs:[0m 8
+[32mpt-nwoga2km-worker-0 logs:[0m 9
+[32mpt-nwoga2km-worker-0 logs:[0m 10
+[32mpt-nwoga2km-worker-0 logs:[0m 11
+[32mpt-nwoga2km-worker-0 logs:[0m 12
+[32mpt-nwoga2km-worker-0 logs:[0m 13
+[32mpt-nwoga2km-worker-0 logs:[0m 14
+[32mpt-nwoga2km-worker-0 logs:[0m 15
+[32mpt-nwoga2km-worker-0 logs:[0m 16
+[32mpt-nwoga2km-worker-0 logs:[0m 17
+[32mpt-nwoga2km-worker-0 logs:[0m 18
+[32mpt-nwoga2km-worker-0 logs:[0m 19
+[32mpt-nwoga2km-worker-0 logs:[0m 20
+[32mpt-nwoga2km-worker-0 logs:[0m 21
+[32mpt-nwoga2km-worker-0 logs:[0m 22
+[32mpt-nwoga2km-worker-0 logs:[0m 23
+[32mpt-nwoga2km-worker-0 logs:[0m 24
+[32mpt-nwoga2km-worker-0 logs:[0m 25
+[32mpt-nwoga2km-worker-0 logs:[0m 26
+[32mpt-nwoga2km-worker-0 logs:[0m 27
+[32mpt-nwoga2km-worker-0 logs:[0m 28
+[32mpt-nwoga2km-worker-0 logs:[0m 29
+[32mpt-nwoga2km-worker-0 logs:[0m 30
+[32mpt-nwoga2km-worker-0 logs:[0m 31
+[32mpt-nwoga2km-worker-0 logs:[0m 67.23765563964844
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/2.38k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 2.38k/2.38k [00:00<00:00, 15.3MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m /mnt/afs/user/liyawei/.conda/envs/cu113/lib/python3.8/site-packages/huggingface_hub/repocard.py:105: UserWarning: Repo card metadata block was not found. Setting CardData to empty.
+[32mpt-nwoga2km-worker-0 logs:[0m   warnings.warn("Repo card metadata block was not found. Setting CardData to empty.")
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/319M [00:00<?, ?B/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   1%|▏         | 4.19M/319M [00:08<10:09, 517kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   4%|▍         | 12.6M/319M [00:14<05:27, 937kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   7%|▋         | 21.0M/319M [00:22<05:03, 983kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   9%|▉         | 29.4M/319M [00:28<04:19, 1.12MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  12%|█▏        | 37.7M/319M [00:36<04:18, 1.09MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  14%|█▍        | 46.1M/319M [00:43<04:00, 1.13MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  17%|█▋        | 54.5M/319M [00:50<03:45, 1.18MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  20%|█▉        | 62.9M/319M [00:57<03:36, 1.18MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  22%|██▏       | 71.3M/319M [01:05<03:38, 1.13MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  25%|██▍       | 79.7M/319M [01:15<03:59, 1.00MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  28%|██▊       | 88.1M/319M [01:25<04:02, 953kB/s] [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  30%|███       | 96.5M/319M [01:35<04:01, 923kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  33%|███▎      | 105M/319M [01:43<03:48, 936kB/s] [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  35%|███▌      | 113M/319M [01:51<03:30, 979kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  38%|███▊      | 122M/319M [02:00<03:22, 977kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  41%|████      | 130M/319M [02:08<03:08, 1.00MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  43%|████▎     | 138M/319M [02:17<03:09, 953kB/s] [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  46%|████▌     | 147M/319M [02:27<03:03, 938kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  49%|████▊     | 155M/319M [02:34<02:46, 987kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  51%|█████     | 164M/319M [02:43<02:38, 980kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  54%|█████▍    | 172M/319M [02:50<02:22, 1.04MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  56%|█████▋    | 180M/319M [02:58<02:13, 1.04MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  59%|█████▉    | 189M/319M [03:08<02:13, 980kB/s] [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  62%|██████▏   | 197M/319M [03:18<02:11, 926kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  64%|██████▍   | 206M/319M [03:26<02:00, 945kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  67%|██████▋   | 214M/319M [03:38<02:00, 875kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  70%|██████▉   | 222M/319M [03:45<01:44, 931kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  72%|███████▏  | 231M/319M [03:53<01:31, 964kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  75%|███████▍  | 239M/319M [04:02<01:22, 974kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  77%|███████▋  | 247M/319M [04:10<01:12, 992kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  80%|████████  | 256M/319M [04:17<01:01, 1.03MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  83%|████████▎ | 264M/319M [04:25<00:53, 1.04MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  85%|████████▌ | 273M/319M [04:32<00:42, 1.10MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  88%|████████▊ | 281M/319M [04:41<00:36, 1.04MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  91%|█████████ | 289M/319M [04:50<00:29, 1.01MB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  93%|█████████▎| 298M/319M [04:59<00:22, 976kB/s] [A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  96%|█████████▌| 306M/319M [05:11<00:14, 881kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  99%|█████████▊| 315M/319M [05:19<00:05, 911kB/s][A
+Downloading data: 100%|██████████| 319M/319M [05:19<00:00, 999kB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 1/1 [05:19<00:00, 319.50s/it]
+Downloading data files: 100%|██████████| 1/1 [05:19<00:00, 319.50s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 1/1 [00:04<00:00,  4.82s/it]
+Extracting data files: 100%|██████████| 1/1 [00:04<00:00,  4.82s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 36862 examples [00:00, 304831.30 examples/s]
+Generating train split: 82339 examples [00:00, 354191.55 examples/s]
+Generating train split: 127363 examples [00:00, 366846.04 examples/s]
+Generating train split: 168803 examples [00:00, 370148.11 examples/s]
+Generating train split: 214014 examples [00:00, 378238.48 examples/s]
+Generating train split: 259470 examples [00:00, 375781.70 examples/s]
+Generating train split: 304853 examples [00:00, 381355.08 examples/s]
+Generating train split: 350356 examples [00:00, 379700.67 examples/s]
+Generating train split: 356317 examples [00:00, 372600.71 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/40.5M [00:00<?, ?B/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  10%|█         | 4.19M/40.5M [00:06<00:57, 626kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  31%|███       | 12.6M/40.5M [00:14<00:31, 890kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  52%|█████▏    | 21.0M/40.5M [00:24<00:21, 887kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  73%|███████▎  | 29.4M/40.5M [00:33<00:12, 910kB/s][A
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data:  93%|█████████▎| 37.7M/40.5M [00:38<00:02, 1.09MB/s][A
+Downloading data: 100%|██████████| 40.5M/40.5M [00:38<00:00, 1.06MB/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 1/1 [00:38<00:00, 38.28s/it]
+Downloading data files: 100%|██████████| 1/1 [00:38<00:00, 38.28s/it]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]
+Extracting data files: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]
+[32mpt-nwoga2km-worker-0 logs:[0m 
+Generating validation split: 0 examples [00:00, ? examples/s]
+Generating validation split: 41615 examples [00:00, 371266.16 examples/s]
+Generating validation split: 45576 examples [00:00, 374281.87 examples/s]
+[32mpt-nwoga2km-worker-0 logs:[0m c4-new
+[32mpt-nwoga2km-worker-0 logs:[0m Evaluating ...
+[32mpt-nwoga2km-worker-0 logs:[0m 0
+[32mpt-nwoga2km-worker-0 logs:[0m 1
+[32mpt-nwoga2km-worker-0 logs:[0m 2
+[32mpt-nwoga2km-worker-0 logs:[0m 3
+[32mpt-nwoga2km-worker-0 logs:[0m 4
+[32mpt-nwoga2km-worker-0 logs:[0m 5
+[32mpt-nwoga2km-worker-0 logs:[0m 6
+[32mpt-nwoga2km-worker-0 logs:[0m 7
+[32mpt-nwoga2km-worker-0 logs:[0m 8
+[32mpt-nwoga2km-worker-0 logs:[0m 9
+[32mpt-nwoga2km-worker-0 logs:[0m 10
+[32mpt-nwoga2km-worker-0 logs:[0m 11
+[32mpt-nwoga2km-worker-0 logs:[0m 12
+[32mpt-nwoga2km-worker-0 logs:[0m 13
+[32mpt-nwoga2km-worker-0 logs:[0m 14
+[32mpt-nwoga2km-worker-0 logs:[0m 15
+[32mpt-nwoga2km-worker-0 logs:[0m 16
+[32mpt-nwoga2km-worker-0 logs:[0m 17
+[32mpt-nwoga2km-worker-0 logs:[0m 18
+[32mpt-nwoga2km-worker-0 logs:[0m 19
+[32mpt-nwoga2km-worker-0 logs:[0m 20
+[32mpt-nwoga2km-worker-0 logs:[0m 21
+[32mpt-nwoga2km-worker-0 logs:[0m 22
+[32mpt-nwoga2km-worker-0 logs:[0m 23
+[32mpt-nwoga2km-worker-0 logs:[0m 24
+[32mpt-nwoga2km-worker-0 logs:[0m 25
+[32mpt-nwoga2km-worker-0 logs:[0m 26
+[32mpt-nwoga2km-worker-0 logs:[0m 27
+[32mpt-nwoga2km-worker-0 logs:[0m 28
+[32mpt-nwoga2km-worker-0 logs:[0m 29
+[32mpt-nwoga2km-worker-0 logs:[0m 30
+[32mpt-nwoga2km-worker-0 logs:[0m 31
+[32mpt-nwoga2km-worker-0 logs:[0m 7.844214916229248
+
+---------------------------------------------test 1------------------------------------------------------

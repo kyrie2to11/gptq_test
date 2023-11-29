@@ -1,0 +1,1276 @@
+[32mpt-ijr2gxrw-worker-0 logs:[0m PATH = /mnt/afs/user/liyawei/.scc/bin:/usr/local/cuda/bin:/usr/local/gcc/bin:/usr/local/lib/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+[32mpt-ijr2gxrw-worker-0 logs:[0m LD_LIBRARY_PATH = /usr/local/cuda-11.3/lib64:/usr/local/cuda-11.3/extras/CUPTI/lib64:/usr/local/cuda/lib64:/usr/local/gcc/lib64:/usr/local/gcc/lib::/usr/local/lib
+[32mpt-ijr2gxrw-worker-0 logs:[0m dir = /mnt/afs/user/liyawei/project/gptq
+[32mpt-ijr2gxrw-worker-0 logs:[0m CUDA extension not installed.
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:12<00:25, 12.85s/it]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:25<00:12, 12.79s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:34<00:00, 11.05s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:34<00:00, 11.53s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading builder script:   0%|          | 0.00/6.50k [00:00<?, ?B/s]
+Downloading builder script: 100%|██████████| 6.50k/6.50k [00:00<00:00, 31.9MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading metadata:   0%|          | 0.00/2.15k [00:00<?, ?B/s]
+Downloading metadata: 100%|██████████| 2.15k/2.15k [00:00<00:00, 12.6MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/4.21k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 4.21k/4.21k [00:00<00:00, 18.6MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/3 [00:00<?, ?it/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/1.70M [00:00<?, ?B/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  20%|█▉        | 338k/1.70M [00:00<00:00, 2.72MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  52%|█████▏    | 882k/1.70M [00:00<00:00, 3.69MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  89%|████████▉ | 1.52M/1.70M [00:00<00:00, 4.34MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data: 2.31MB [00:00, 5.14MB/s]                            [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data: 2.83MB [00:00, 4.32MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data: 3.63MB [00:00, 4.25MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data: 4.71MB [00:00, 5.53MB/s][A
+Downloading data: 5.10MB [00:01, 4.91MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files:  33%|███▎      | 1/3 [00:02<00:04,  2.02s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/135k [00:00<?, ?B/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  31%|███       | 42.0k/135k [00:00<00:00, 329kB/s][A
+Downloading data: 400kB [00:00, 2.48MB/s]                           
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files:  67%|██████▋   | 2/3 [00:03<00:01,  1.56s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/150k [00:00<?, ?B/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  11%|█         | 16.4k/150k [00:00<00:02, 51.4kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  29%|██▊       | 43.0k/150k [00:00<00:01, 76.9kB/s][A
+Downloading data: 450kB [00:00, 755kB/s]                             
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 3/3 [00:04<00:00,  1.58s/it]
+Downloading data files: 100%|██████████| 3/3 [00:04<00:00,  1.62s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/3 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 3/3 [00:00<00:00, 3003.08it/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating train split:   0%|          | 0/42068 [00:00<?, ? examples/s]
+Generating train split:  18%|█▊        | 7484/42068 [00:00<00:00, 74690.67 examples/s]
+Generating train split:  40%|████      | 16980/42068 [00:00<00:00, 86601.01 examples/s]
+Generating train split:  63%|██████▎   | 26371/42068 [00:00<00:00, 89933.70 examples/s]
+Generating train split:  85%|████████▌ | 35821/42068 [00:00<00:00, 91731.08 examples/s]
+Generating train split: 100%|██████████| 42068/42068 [00:00<00:00, 89953.56 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating test split:   0%|          | 0/3761 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 3761/3761 [00:00<00:00, 91695.16 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m Starting ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m Ready.
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.87
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 181.75662231445312
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 14.776935577392578
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 203.85699462890625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 0.17911997437477112
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 211.0348358154297
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 230.32212829589844
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.40
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2.5273191928863525
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1215.96923828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 99.04875946044922
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1190.40869140625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.14
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6.710763931274414
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 767.9010620117188
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 904.0227661132812
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.39
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 820.9564208984375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.23
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 4345.3017578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 833.870361328125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 4821.8935546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.14
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 57.585716247558594
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1890.318603515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.00
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2213.5478515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.44
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 59.48685836791992
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.23
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12387.5546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2790.94921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 16531.552734375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.15
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17.525760650634766
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 4504.28564453125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.95
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 5388.2412109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.38
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 119.16085815429688
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 13752.1923828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 3138.040771484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17565.16796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.16
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 36.73432922363281
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6524.3671875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 8211.2861328125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.52
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 234.43862915039062
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 16732.666015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 3999.1416015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17284.15625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 95.94901275634766
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 7946.8173828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 10041.73046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.43
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 333.44427490234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.23
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 21486.943359375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 5699.5048828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 24967.19921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.16
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 123.84028625488281
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 9658.25
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12682.31640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.37
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 505.30877685546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 22612.25
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6511.951171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 25032.666015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.14
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 182.89041137695312
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 11204.21484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.95
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 14607.537109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.42
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 690.4736938476562
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.25
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 23257.8515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6722.3935546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 24364.484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.16
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 320.5980529785156
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12574.642578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 15477.7705078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.42
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 903.1873779296875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.23
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 26829.34765625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 7788.3330078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.95
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 26259.69921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.15
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 489.5890197753906
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 13990.6201171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.94
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 16624.3203125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.42
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1085.97802734375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 28670.73046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 8411.6533203125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 26652.5703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.15
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 644.6646118164062
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 15221.037109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17745.5546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.32
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1307.5048828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 30294.470703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 11587.2421875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 31067.78125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 731.7685546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17245.966796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 19523.591796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.37
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1493.1429443359375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 34547.375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 11633.1064453125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 32849.2578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 836.118896484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 18664.744140625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 20637.6875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.34
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1748.274169921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 34701.6875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.09
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12788.4033203125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 35578.6328125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 900.4698486328125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 20287.810546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 21841.447265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.33
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2174.900390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 36849.98046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12798.9326171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.99
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 34476.375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 993.9908447265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 22393.859375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 23973.015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.33
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2518.39208984375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 35375.578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 13357.056640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37927.6640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1160.7725830078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 24509.166015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 25940.828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.36
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 3239.455322265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37418.59765625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 15105.640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 41797.5234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1558.60009765625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 26601.296875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 28642.0390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.43
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 4036.849609375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 36678.5234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 15348.2041015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37242.1875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1098.10595703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 29206.6484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.01
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 32336.673828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.36
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 4390.7265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating validation split:   0%|          | 0/3370 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3370/3370 [00:00<00:00, 91590.56 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.32
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 38269.8359375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 18215.68359375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 40730.828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1155.4912109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 31647.14453125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 35928.86328125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.33
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 5246.20947265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 38078.68359375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 17895.748046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 40636.78125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1087.66650390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 33968.65625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.95
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 38691.48828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.34
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 5895.35498046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 39681.56640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 18644.802734375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 42049.75390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1433.98876953125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 34884.46484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 40070.1015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.35
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6541.451171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.22
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 41344.6953125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 21144.74609375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 46401.69140625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1113.5087890625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 36743.125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 42889.15234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.41
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 6803.3173828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 43789.765625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 21936.32421875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 47322.2265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1742.375732421875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37999.625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 44979.6640625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.31
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 7574.240234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 46987.5
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 26510.240234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 52693.8125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1523.9150390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 41405.125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 48248.30859375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.29
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 8493.4130859375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.25
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 46288.0546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 25874.17578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 48439.421875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.15
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1624.80908203125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 43667.22265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.92
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 51136.0703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.34
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 8876.580078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 51589.0703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 32129.595703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 56967.78515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 1357.2265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 46953.66796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 54950.6875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.35
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 9620.6787109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 51191.4375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.88
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 32265.16796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.88
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 58062.34375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 3289.044921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 50449.75
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 58518.2734375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.32
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 11090.951171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 52950.078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 33415.78515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 66091.546875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2014.694580078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.18
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 54771.4140625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.93
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 62887.453125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.46
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 12944.6015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 54128.65234375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37273.171875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 71446.46875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2797.76416015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 58148.97265625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 64902.0078125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.32
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 15478.498046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 50218.8046875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.89
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 34583.87109375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 74722.390625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2588.468994140625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 60811.8125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 67118.828125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.34
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 18944.8671875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.20
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 52091.9296875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 38600.921875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 83352.0625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.12
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 2824.49609375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.19
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 61817.6015625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.90
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 69806.515625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.31
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 37949.765625
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 self_attn.k_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.21
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 41019.578125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 self_attn.v_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 23682.1796875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 self_attn.q_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 44833.703125
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 self_attn.o_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.11
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 3414.4296875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 mlp.up_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 1.17
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 53782.4375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 mlp.gate_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 0.91
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 60119.71484375
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31 mlp.down_proj
+[32mpt-ijr2gxrw-worker-0 logs:[0m Quantizing ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m time 3.32
+[32mpt-ijr2gxrw-worker-0 logs:[0m error 71505.875
+[32mpt-ijr2gxrw-worker-0 logs:[0m 663.4033648967743
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading builder script:   0%|          | 0.00/8.48k [00:00<?, ?B/s]
+Downloading builder script: 100%|██████████| 8.48k/8.48k [00:00<00:00, 35.4MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading metadata:   0%|          | 0.00/6.84k [00:00<?, ?B/s]
+Downloading metadata: 100%|██████████| 6.84k/6.84k [00:00<00:00, 32.6MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/9.62k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 9.62k/9.62k [00:00<00:00, 37.6MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/4.72M [00:00<?, ?B/s]
+Downloading data:   0%|          | 2.05k/4.72M [00:00<11:12, 7.02kB/s]
+Downloading data:   1%|          | 36.9k/4.72M [00:00<01:02, 75.0kB/s]
+Downloading data:   2%|▏         | 89.1k/4.72M [00:00<00:38, 122kB/s] 
+Downloading data:   4%|▍         | 194k/4.72M [00:00<00:16, 277kB/s] 
+Downloading data:   5%|▍         | 233k/4.72M [00:01<00:18, 246kB/s]
+Downloading data:   8%|▊         | 368k/4.72M [00:01<00:13, 318kB/s]
+Downloading data:  11%|█         | 524k/4.72M [00:01<00:10, 390kB/s]
+Downloading data:  14%|█▍        | 681k/4.72M [00:02<00:09, 438kB/s]
+Downloading data:  18%|█▊        | 854k/4.72M [00:02<00:06, 565kB/s]
+Downloading data:  19%|█▉        | 918k/4.72M [00:02<00:07, 535kB/s]
+Downloading data:  22%|██▏       | 1.03M/4.72M [00:02<00:07, 475kB/s]
+Downloading data:  25%|██▌       | 1.20M/4.72M [00:03<00:06, 534kB/s]
+Downloading data:  27%|██▋       | 1.26M/4.72M [00:03<00:06, 519kB/s]
+Downloading data:  29%|██▉       | 1.38M/4.72M [00:03<00:05, 626kB/s]
+Downloading data:  31%|███       | 1.45M/4.72M [00:03<00:06, 494kB/s]
+Downloading data:  32%|███▏      | 1.51M/4.72M [00:03<00:07, 439kB/s]
+Downloading data:  35%|███▍      | 1.64M/4.72M [00:03<00:05, 573kB/s]
+Downloading data:  38%|███▊      | 1.78M/4.72M [00:03<00:04, 698kB/s]
+Downloading data:  39%|███▉      | 1.86M/4.72M [00:04<00:04, 642kB/s]
+Downloading data:  42%|████▏     | 1.97M/4.72M [00:04<00:03, 704kB/s]
+Downloading data:  44%|████▎     | 2.06M/4.72M [00:04<00:04, 586kB/s]
+Downloading data:  47%|████▋     | 2.21M/4.72M [00:04<00:03, 746kB/s]
+Downloading data:  49%|████▊     | 2.30M/4.72M [00:04<00:03, 681kB/s]
+Downloading data:  50%|█████     | 2.37M/4.72M [00:04<00:03, 685kB/s]
+Downloading data:  52%|█████▏    | 2.47M/4.72M [00:04<00:03, 724kB/s]
+Downloading data:  54%|█████▍    | 2.55M/4.72M [00:05<00:03, 657kB/s]
+Downloading data:  57%|█████▋    | 2.68M/4.72M [00:05<00:02, 770kB/s]
+Downloading data:  59%|█████▉    | 2.80M/4.72M [00:05<00:02, 703kB/s]
+Downloading data:  62%|██████▏   | 2.91M/4.72M [00:05<00:03, 498kB/s]
+Downloading data:  67%|██████▋   | 3.15M/4.72M [00:05<00:01, 797kB/s]
+Downloading data:  69%|██████▉   | 3.27M/4.72M [00:06<00:01, 838kB/s]
+Downloading data:  72%|███████▏  | 3.40M/4.72M [00:06<00:01, 906kB/s]
+Downloading data:  75%|███████▍  | 3.52M/4.72M [00:06<00:01, 947kB/s]
+Downloading data:  78%|███████▊  | 3.67M/4.72M [00:06<00:00, 1.08MB/s]
+Downloading data:  80%|████████  | 3.79M/4.72M [00:06<00:01, 856kB/s] 
+Downloading data:  83%|████████▎ | 3.92M/4.72M [00:06<00:00, 927kB/s]
+Downloading data:  85%|████████▌ | 4.02M/4.72M [00:07<00:01, 455kB/s]
+Downloading data:  88%|████████▊ | 4.16M/4.72M [00:07<00:00, 564kB/s]
+Downloading data:  90%|█████████ | 4.27M/4.72M [00:07<00:00, 614kB/s]
+Downloading data:  93%|█████████▎| 4.37M/4.72M [00:07<00:00, 662kB/s]
+Downloading data:  95%|█████████▍| 4.48M/4.72M [00:07<00:00, 703kB/s]
+Downloading data:  97%|█████████▋| 4.60M/4.72M [00:07<00:00, 772kB/s]
+Downloading data: 100%|██████████| 4.72M/4.72M [00:07<00:00, 593kB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]
+Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 77614.91 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating train split:   0%|          | 0/36718 [00:00<?, ? examples/s]
+Generating train split:  24%|██▍       | 8806/36718 [00:00<00:00, 87922.57 examples/s]
+Generating train split:  50%|████▉     | 18185/36718 [00:00<00:00, 66060.73 examples/s]
+Generating train split:  74%|███████▎  | 27000/36718 [00:00<00:00, 74226.99 examples/s]
+Generating train split:  97%|█████████▋| 35753/36718 [00:00<00:00, 78879.54 examples/s]
+Generating train split: 100%|██████████| 36718/36718 [00:00<00:00, 76808.29 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]
+Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 76167.99 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m wikitext2
+[32mpt-ijr2gxrw-worker-0 logs:[0m Evaluating ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5.88774299621582
+[32mpt-ijr2gxrw-worker-0 logs:[0m ptb-new
+[32mpt-ijr2gxrw-worker-0 logs:[0m Evaluating ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31
+[32mpt-ijr2gxrw-worker-0 logs:[0m 34.90340042114258
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading readme:   0%|          | 0.00/2.38k [00:00<?, ?B/s]
+Downloading readme: 100%|██████████| 2.38k/2.38k [00:00<00:00, 14.4MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m /mnt/afs/user/liyawei/.conda/envs/cu113/lib/python3.8/site-packages/huggingface_hub/repocard.py:105: UserWarning: Repo card metadata block was not found. Setting CardData to empty.
+[32mpt-ijr2gxrw-worker-0 logs:[0m   warnings.warn("Repo card metadata block was not found. Setting CardData to empty.")
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/319M [00:00<?, ?B/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   1%|▏         | 4.19M/319M [00:10<13:11, 398kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   4%|▍         | 12.6M/319M [00:18<07:00, 729kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   7%|▋         | 21.0M/319M [00:27<05:56, 838kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   9%|▉         | 29.4M/319M [00:35<05:16, 915kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  12%|█▏        | 37.7M/319M [00:44<05:12, 901kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  14%|█▍        | 46.1M/319M [00:52<04:49, 943kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  17%|█▋        | 54.5M/319M [01:00<04:25, 996kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  20%|█▉        | 62.9M/319M [01:07<04:07, 1.03MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  22%|██▏       | 71.3M/319M [01:14<03:42, 1.11MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  25%|██▍       | 79.7M/319M [01:23<03:51, 1.03MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  28%|██▊       | 88.1M/319M [01:31<03:39, 1.05MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  30%|███       | 96.5M/319M [01:39<03:32, 1.05MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  33%|███▎      | 105M/319M [01:48<03:36, 990kB/s]  [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  35%|███▌      | 113M/319M [01:57<03:26, 999kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  38%|███▊      | 122M/319M [02:05<03:17, 1.00MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  41%|████      | 130M/319M [02:14<03:14, 971kB/s] [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  43%|████▎     | 138M/319M [02:22<03:01, 999kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  46%|████▌     | 147M/319M [02:31<02:53, 994kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  49%|████▊     | 155M/319M [02:39<02:44, 999kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  51%|█████     | 164M/319M [02:45<02:24, 1.07MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  54%|█████▍    | 172M/319M [02:54<02:20, 1.05MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  56%|█████▋    | 180M/319M [03:02<02:11, 1.05MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  59%|█████▉    | 189M/319M [03:09<02:02, 1.06MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  62%|██████▏   | 197M/319M [03:18<01:57, 1.04MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  64%|██████▍   | 206M/319M [03:27<01:54, 990kB/s] [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  67%|██████▋   | 214M/319M [03:35<01:44, 1.01MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  70%|██████▉   | 222M/319M [03:43<01:34, 1.03MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  72%|███████▏  | 231M/319M [03:51<01:25, 1.04MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  75%|███████▍  | 239M/319M [03:58<01:15, 1.07MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  77%|███████▋  | 247M/319M [04:08<01:13, 978kB/s] [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  80%|████████  | 256M/319M [04:17<01:05, 968kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  83%|████████▎ | 264M/319M [04:25<00:55, 985kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  85%|████████▌ | 273M/319M [04:32<00:44, 1.06MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  88%|████████▊ | 281M/319M [04:42<00:39, 969kB/s] [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  91%|█████████ | 289M/319M [04:49<00:29, 1.03MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  93%|█████████▎| 298M/319M [04:57<00:20, 1.05MB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  96%|█████████▌| 306M/319M [05:07<00:13, 991kB/s] [A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  99%|█████████▊| 315M/319M [05:15<00:04, 977kB/s][A
+Downloading data: 100%|██████████| 319M/319M [05:15<00:00, 1.01MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 1/1 [05:15<00:00, 315.95s/it]
+Downloading data files: 100%|██████████| 1/1 [05:15<00:00, 315.95s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 1/1 [00:04<00:00,  4.86s/it]
+Extracting data files: 100%|██████████| 1/1 [00:04<00:00,  4.86s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 18137 examples [00:00, 169548.70 examples/s]
+Generating train split: 55073 examples [00:00, 277625.45 examples/s]
+Generating train split: 91398 examples [00:00, 301391.04 examples/s]
+Generating train split: 127363 examples [00:00, 320257.94 examples/s]
+Generating train split: 164342 examples [00:00, 328525.07 examples/s]
+Generating train split: 200508 examples [00:00, 333492.24 examples/s]
+Generating train split: 236617 examples [00:00, 339867.48 examples/s]
+Generating train split: 273202 examples [00:00, 345755.42 examples/s]
+Generating train split: 309452 examples [00:00, 345845.22 examples/s]
+Generating train split: 356317 examples [00:01, 332225.87 examples/s]
+Generating train split: 356317 examples [00:01, 324785.79 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files:   0%|          | 0/1 [00:00<?, ?it/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:   0%|          | 0.00/40.5M [00:00<?, ?B/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  10%|█         | 4.19M/40.5M [00:06<00:59, 612kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  31%|███       | 12.6M/40.5M [00:16<00:35, 783kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  52%|█████▏    | 21.0M/40.5M [00:24<00:21, 894kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  73%|███████▎  | 29.4M/40.5M [00:33<00:11, 934kB/s][A
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data:  93%|█████████▎| 37.7M/40.5M [00:39<00:02, 1.05MB/s][A
+Downloading data: 100%|██████████| 40.5M/40.5M [00:39<00:00, 1.03MB/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Downloading data files: 100%|██████████| 1/1 [00:39<00:00, 39.42s/it]
+Downloading data files: 100%|██████████| 1/1 [00:39<00:00, 39.42s/it]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Extracting data files:   0%|          | 0/1 [00:00<?, ?it/s]
+Extracting data files: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+Extracting data files: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m 
+Generating validation split: 0 examples [00:00, ? examples/s]
+Generating validation split: 27647 examples [00:00, 255072.80 examples/s]
+Generating validation split: 45576 examples [00:00, 263569.17 examples/s]
+[32mpt-ijr2gxrw-worker-0 logs:[0m c4-new
+[32mpt-ijr2gxrw-worker-0 logs:[0m Evaluating ...
+[32mpt-ijr2gxrw-worker-0 logs:[0m 0
+[32mpt-ijr2gxrw-worker-0 logs:[0m 1
+[32mpt-ijr2gxrw-worker-0 logs:[0m 2
+[32mpt-ijr2gxrw-worker-0 logs:[0m 3
+[32mpt-ijr2gxrw-worker-0 logs:[0m 4
+[32mpt-ijr2gxrw-worker-0 logs:[0m 5
+[32mpt-ijr2gxrw-worker-0 logs:[0m 6
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7
+[32mpt-ijr2gxrw-worker-0 logs:[0m 8
+[32mpt-ijr2gxrw-worker-0 logs:[0m 9
+[32mpt-ijr2gxrw-worker-0 logs:[0m 10
+[32mpt-ijr2gxrw-worker-0 logs:[0m 11
+[32mpt-ijr2gxrw-worker-0 logs:[0m 12
+[32mpt-ijr2gxrw-worker-0 logs:[0m 13
+[32mpt-ijr2gxrw-worker-0 logs:[0m 14
+[32mpt-ijr2gxrw-worker-0 logs:[0m 15
+[32mpt-ijr2gxrw-worker-0 logs:[0m 16
+[32mpt-ijr2gxrw-worker-0 logs:[0m 17
+[32mpt-ijr2gxrw-worker-0 logs:[0m 18
+[32mpt-ijr2gxrw-worker-0 logs:[0m 19
+[32mpt-ijr2gxrw-worker-0 logs:[0m 20
+[32mpt-ijr2gxrw-worker-0 logs:[0m 21
+[32mpt-ijr2gxrw-worker-0 logs:[0m 22
+[32mpt-ijr2gxrw-worker-0 logs:[0m 23
+[32mpt-ijr2gxrw-worker-0 logs:[0m 24
+[32mpt-ijr2gxrw-worker-0 logs:[0m 25
+[32mpt-ijr2gxrw-worker-0 logs:[0m 26
+[32mpt-ijr2gxrw-worker-0 logs:[0m 27
+[32mpt-ijr2gxrw-worker-0 logs:[0m 28
+[32mpt-ijr2gxrw-worker-0 logs:[0m 29
+[32mpt-ijr2gxrw-worker-0 logs:[0m 30
+[32mpt-ijr2gxrw-worker-0 logs:[0m 31
+[32mpt-ijr2gxrw-worker-0 logs:[0m 7.89464807510376
