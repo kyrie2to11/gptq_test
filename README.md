@@ -33,11 +33,17 @@ Here is a summary of LLaMa results:
 
 Here is a sample command:
 
-```
+```python
 python llama.py LLAMA_HF_FOLDER c4 --wbits 4 --true-sequential --act-order --new-eval
 ```
 
 The `--act-order` heuristic also dramatically improves accuracy on the OPT-66B outlier model: 9.55 to 9.34 and 14.16 to 9.95 PPL on Wiki2 for 4bit and 3bit, respectively.
+
+```bash
+bash srun.sh
+```
+
+Action similar to the above in SenseCore computation cluster using a shell script
 
 ## Dependencies
 

@@ -7,7 +7,7 @@ export https_proxy=http://fvgroup:48423590@10.54.0.93:3128
 echo "PATH = $PATH"
 echo "LD_LIBRARY_PATH = $LD_LIBRARY_PATH"
 # 进入项目目录
-cd /mnt/afs/user/liyawei/project/gptq
+cd /mnt/afs/user/liyawei/projects/gptq
 echo "dir = $(pwd)"
 
 env="/mnt/afs/user/liyawei/.conda/envs/cu113/bin"
